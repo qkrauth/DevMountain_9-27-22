@@ -1,0 +1,20 @@
+body {
+    margin: 0%;
+    height: 100%;
+}
+
+.top {
+    background-color: dimgray;
+    height: 100px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side {
+    background-color: lightgray;
+    height: 900px;
+    width: 200px;
+}
