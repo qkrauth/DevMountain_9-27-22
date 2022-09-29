@@ -1,8 +1,46 @@
 body {
-    margin: 0%;
+    margin: 0;
 }
 
 .gray {
     background-color: lightgrey;
     height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.blueBox {
+    background-color: navy;
+    height: 65px;
+    width: 65px;
+}
+
+.para {
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    height: 250px;
+}
+
+.teal {
+    background-color: aquamarine;
+    height: 250px;
+}
+
+.green {
+    background-color: chartreuse;
+    height: 250px;
+}
+
+.yellow {
+    background-color: gold;
+    height: 250px;
 }
